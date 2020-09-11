@@ -4,7 +4,10 @@ def majuscule(mot):
     resultat = ''
     for lettre in mot:
         # TODO completer la fonction ici
-        lettre=chr(ord(lettre)-32)
+        nombre=0
+        nombre=ord(lettre)
+        nombre-=32
+        resultat=chr(nombre)
         resultat += lettre
     return mot
 
