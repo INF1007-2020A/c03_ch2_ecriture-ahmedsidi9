@@ -7,9 +7,9 @@ def majuscule(mot):
         nombre=0
         nombre=ord(lettre)
         nombre-=32
-        resultat=chr(nombre)
-        resultat += lettre
-    return mot
+        resultat+=chr(nombre)
+        
+    return resultat
 
 
 if __name__ == '__main__':
